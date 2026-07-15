@@ -249,7 +249,7 @@ void Actor_Init() {
     gActorOverlayTable[0x10F].initInfo->destroy = ItemEtcetera_rDestroy;
     gActorOverlayTable[0x10F].initInfo->update  = ItemEtcetera_rUpdate;
 
-    gActorOverlayTable[0x111].initInfo->init = OjbTsubo_rInit;
+    gActorOverlayTable[0x111].initInfo->init = ObjTsubo_rInit;
 
     gActorOverlayTable[0x113].initInfo->init = EnIk_rInit;
 
