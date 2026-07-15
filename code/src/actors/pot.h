@@ -9,4 +9,4 @@
 void OjbTsubo_rInit(Actor* thisx, GlobalContext* globalCtx);
 
 
-#endif //_CHEST_H_
+#endif //_POT_H_
