@@ -6,7 +6,7 @@
 
 
 
-void OjbTsubo_rInit(Actor* thisx, GlobalContext* globalCtx);
+void ObjTsubo_rInit(Actor* thisx, GlobalContext* globalCtx);
 
 
 #endif //_POT_H_
