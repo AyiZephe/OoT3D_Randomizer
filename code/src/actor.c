@@ -88,6 +88,7 @@
 #include "obj_mure3.h"
 #include "armos.h"
 #include "poe_collector.h"
+#include "pot.h"
 
 Actor* gRunningActor;
 #define MAX_RUNNING_ACTORS 5
@@ -247,6 +248,8 @@ void Actor_Init() {
     gActorOverlayTable[0x10F].initInfo->init    = ItemEtcetera_rInit;
     gActorOverlayTable[0x10F].initInfo->destroy = ItemEtcetera_rDestroy;
     gActorOverlayTable[0x10F].initInfo->update  = ItemEtcetera_rUpdate;
+
+    gActorOverlayTable[0x111].initInfo->init = OjbTsubo-rInit;
 
     gActorOverlayTable[0x113].initInfo->init = EnIk_rInit;
 
