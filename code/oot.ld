@@ -243,7 +243,7 @@ SECTIONS
 	EnTorch2_Destroy = 0x1F8764 + _LD_OFF;
 	Fishing_DrawFish = 0x1F98B4 + _LD_OFF;
 	Fishing_UpdateFish = 0x1F9ACC + _LD_OFF;
-	ObjTsubo_Init = 0x1ff184 + _LD-OFF;
+	ObjTsubo_Init = 0x1ff184 + _LD_OFF;
 	BgSpot02Objects_Explode = 0x205EDC + _LD_OFF;
 	.patch_BombchuBowlingStaticReward 0x206150 + _LD_OFF : { *(.patch_BombchuBowlingStaticReward) }
 	EnWonderTalk_Action_2065E0 = 0x2065E0 + _LD_OFF;
